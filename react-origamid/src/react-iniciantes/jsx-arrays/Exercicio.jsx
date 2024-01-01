@@ -31,6 +31,13 @@ const Exercicio = () => {
           <div key={produto.id}>
             <h1>{produto.nome}</h1>
             <p>Preço: {produto.preco}</p>
+            <ul>
+              {produto.cores.map((cor) => (
+                <li key={cor} style={{ backgroundColor: cor, color: 'white' }}>
+                  {cor}
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
     </section>
