@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './input/ExeApp';
+import App from './textarea/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
