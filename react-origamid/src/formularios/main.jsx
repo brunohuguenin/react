@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './radio/App';
+import App from './checkbox/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
