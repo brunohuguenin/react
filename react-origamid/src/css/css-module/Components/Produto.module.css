@@ -1,0 +1,17 @@
+.titulo, .preco {
+  color: #43c;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.comprar {
+  transform: rotate(90deg) translateY(-120px);
+  background: #b45;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
