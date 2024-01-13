@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './memo/App';
+import App from './useReducer/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
